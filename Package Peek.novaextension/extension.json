@@ -3,9 +3,12 @@
   "name": "Package Peek",
   "organization": "stampmeister",
   "description": "Shows current npm package details and the latest release when hovering over dependencies in package.json.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "min_runtime": "10.0",
   "license": "MIT",
+  "homepage": "https://github.com/nurges/package-peek-nova",
+  "repository": "https://github.com/nurges/package-peek-nova",
+  "bugs": "https://github.com/nurges/package-peek-nova/issues",
   "categories": [
     "commands",
     "languages"
@@ -14,7 +17,7 @@
     "process": true,
     "requests": true
   },
-  "main": "Scripts/main.js",
+  "main": "main.js",
   "activationEvents": [
     "onLanguage:json",
     "onCommand:com.stampmeister.package-peek.update-dependency"

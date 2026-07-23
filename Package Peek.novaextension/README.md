@@ -33,3 +33,16 @@ For development, open the bundle as a Nova project and choose **Extensions → A
 - Package information is cached for 10 minutes.
 - The extension uses the public npm registry and does not read npm authentication tokens, so private packages are not supported.
 - Changes are applied to the open editor buffer and are undoable; the extension does not save the file automatically.
+
+## Privacy
+
+Package Peek sends the package name under the pointer to `registry.npmjs.org` and `api.npmjs.org` to retrieve public package metadata and download counts. It does not collect telemetry, read npm authentication tokens, or send the contents of `package.json`.
+
+## Troubleshooting
+
+If hover information does not appear:
+
+1. Confirm the file is named `package.json` and uses Nova's JSON syntax.
+2. Confirm Node.js is available in Nova's environment.
+3. Close and reopen `package.json` after installing or updating the extension.
+4. Check Nova's Extension Console for messages from Package Peek.

@@ -115,7 +115,7 @@ function requestJSON(url, timeout) {
     const request = https.get(url, {
       headers: {
         Accept: "application/json",
-        "User-Agent": "Package-Peek-Nova/1.0.0"
+        "User-Agent": "Package-Peek-Nova/1.0.1"
       },
       timeout
     }, (response) => {
@@ -402,7 +402,7 @@ async function handleMessage(message) {
         },
         serverInfo: {
           name: "Package Peek",
-          version: "1.0.0"
+          version: "1.0.1"
         }
       }
     });
