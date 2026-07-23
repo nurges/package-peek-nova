@@ -24,7 +24,7 @@ Supported sections are `dependencies`, `devDependencies`, `peerDependencies`, an
 
 ## Install
 
-Double-click the **Package Peek.novaextension** bundle and confirm installation in Nova.
+In Nova, choose **Extensions → Extension Library**, search for **Package Peek**, and click **Install**.
 
 ## Notes
 
