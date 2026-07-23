@@ -4,6 +4,7 @@
 
 - Fixed extension activation in Nova.
 - Added Extension Library artwork and publishing documentation.
+- Added an npm non-affiliation disclaimer and streamlined the public documentation.
 
 ## 1.0.0
 

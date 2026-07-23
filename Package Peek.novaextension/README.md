@@ -26,8 +26,6 @@ Supported sections are `dependencies`, `devDependencies`, `peerDependencies`, an
 
 Double-click the **Package Peek.novaextension** bundle and confirm installation in Nova.
 
-For development, open the bundle as a Nova project and choose **Extensions → Activate Project as Extension**.
-
 ## Notes
 
 - Package information is cached for 10 minutes.
@@ -38,11 +36,6 @@ For development, open the bundle as a Nova project and choose **Extensions → A
 
 Package Peek sends the package name under the pointer to `registry.npmjs.org` and `api.npmjs.org` to retrieve public package metadata and download counts. It does not collect telemetry, read npm authentication tokens, or send the contents of `package.json`.
 
-## Troubleshooting
+## Disclaimer
 
-If hover information does not appear:
-
-1. Confirm the file is named `package.json` and uses Nova's JSON syntax.
-2. Confirm Node.js is available in Nova's environment.
-3. Close and reopen `package.json` after installing or updating the extension.
-4. Check Nova's Extension Console for messages from Package Peek.
+Package Peek is an independent project and is not affiliated with, endorsed by, or sponsored by npm or its owners. All product names and trademarks belong to their respective owners.
