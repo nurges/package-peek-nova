@@ -1,0 +1,36 @@
+{
+  "identifier": "com.stampmeister.package-peek",
+  "name": "Package Peek",
+  "organization": "stampmeister",
+  "description": "Shows current npm package details and the latest release when hovering over dependencies in package.json.",
+  "version": "1.0.0",
+  "min_runtime": "10.0",
+  "license": "MIT",
+  "categories": [
+    "commands",
+    "languages"
+  ],
+  "entitlements": {
+    "process": true,
+    "requests": true
+  },
+  "main": "Scripts/main.js",
+  "activationEvents": [
+    "onLanguage:json",
+    "onCommand:com.stampmeister.package-peek.update-dependency"
+  ],
+  "commands": {
+    "editor": [
+      {
+        "title": "Update Package Under Cursor to Latest",
+        "command": "com.stampmeister.package-peek.update-dependency",
+        "when": "editorHasFocus",
+        "filters": {
+          "syntaxes": [
+            "json"
+          ]
+        }
+      }
+    ]
+  }
+}
