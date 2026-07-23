@@ -22,10 +22,6 @@ Supported sections are `dependencies`, `devDependencies`, `peerDependencies`, an
 - Node.js available on the environment `PATH` Nova receives from your login shell
 - Network access to `registry.npmjs.org` and `api.npmjs.org`
 
-## Install
-
-In Nova, choose **Extensions → Extension Library**, search for **Package Peek**, and click **Install**.
-
 ## Notes
 
 - Package information is cached for 10 minutes.
